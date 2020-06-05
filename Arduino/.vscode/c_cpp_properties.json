@@ -1,0 +1,53 @@
+{
+
+    "env": {
+        "arduino-path": "/Applications/Arduino.app/Contents/Java"
+      },
+
+    "configurations": [
+        {
+            "name": "Mac",
+            
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${arduino-path}/hardware/arduino/avr/libraries/EEPROM/",
+                "${arduino-path}/hardware/arduino/avr/include",
+                "${arduino-path}/libraries/**",
+                "${arduino-path}/hardware/arduino/avr/cores/arduino/",
+                "${arduino-path}/hardware/arduino/avr/libraries/EEPROM/",
+                "${arduino-path}/hardware/arduino/avr/libraries/SPI/",
+                "${arduino-path}/hardware/arduino/avr/libraries/SoftwareSerial/",
+                "${arduino-path}/hardware/arduino/avr/libraries/Wire/",
+                "${arduino-path}/hardware/tools/avr/avr/include/",
+                "${arduino-path}/hardware/tools/avr/avr/include/avr/",
+                "${arduino-path}/hardware/tools/avr/avr/include/compat/",
+                "${arduino-path}/hardware/tools/avr/avr/include/util/",
+                "${arduino-path}/hardware/tools/avr/lib/gcc/avr/4.*.*/include/",
+                "${arduino-path}/hardware/tools/avr/lib/gcc/avr/4.*.*/include-fixed/",
+                "${arduino-path}/hardware/arduino/avr/cores/arduino/Arduino.h",
+                "${arduino-path}/hardware/arduino/avr/variants/**",
+
+                "/Applications/Arduino.app/Contents/Java/libraries",
+    "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include",
+    "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/variants/standard"
+            ],
+            "forcedInclude": [
+                "${arduino-path}/hardware/arduino/avr/cores/arduino/Arduino.h"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "path": [
+                    "/Applications/Arduino.app/Contents/Java/"
+                ]
+            },
+            "defines": [],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11"
+        }
+    ],
+    "version": 4
+}

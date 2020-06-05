@@ -1,0 +1,1 @@
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc-ar  rcs  libapp_stdio.a  CMakeFiles/app_stdio.dir/app_stdio.cpp.o

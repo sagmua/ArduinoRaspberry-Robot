@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+2769c530b22ce74932b4e114c1017fd0 01_hello_world/CMakeFiles/upload-hello_world
+e78187cfcc52755806337f79c3cedde4 02_arduino_lib/CMakeFiles/upload-arduino_lib
+4ab44a141c06ee7aec074a75093a1265 03_portable_app/CMakeFiles/upload-portable_app
+72cf3bddbf2d8e49a21fbdf98cc7c90f 04_multi_app/CMakeFiles/upload-app1
+36a7979233bc76e6d25f927742bc4f55 04_multi_app/CMakeFiles/upload-app2
+7a0b217b1c842ba6eac057051c6adc8f 05_auto_link/CMakeFiles/upload-auto_link_app
+23c67c1b028f5b4a2d69c63154439e8b 05_auto_link/CMakeFiles/upload-auto_link_custom

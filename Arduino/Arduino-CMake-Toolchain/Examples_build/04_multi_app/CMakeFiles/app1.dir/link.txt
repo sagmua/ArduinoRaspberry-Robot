@@ -1,0 +1,1 @@
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o app1.elf CMakeFiles/app1.dir/app1.cpp.o  lib_arduino_lib_Wire.a ../01_hello_world/lib_arduino_lib_core.a   -L/Users/scardenete/Documents/my_own_documents/Arduino/Arduino-CMake-Toolchain-master/Examples_build -lm

@@ -1,0 +1,1 @@
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc-ar  rcs  lib_arduino_lib_local_lib.a  CMakeFiles/_arduino_lib_local_lib.dir/libraries/local_lib/local_lib.cpp.o
