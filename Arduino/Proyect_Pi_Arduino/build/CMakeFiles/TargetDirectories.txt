@@ -1,8 +1,0 @@
-/Users/scardenete/Documents/my_own_documents/Arduino/Proyect_Pi_Arduino/build/CMakeFiles/edit_cache.dir
-/Users/scardenete/Documents/my_own_documents/Arduino/Proyect_Pi_Arduino/build/CMakeFiles/_arduino_lib_Stepper.dir
-/Users/scardenete/Documents/my_own_documents/Arduino/Proyect_Pi_Arduino/build/CMakeFiles/upload-arduino_lib.dir
-/Users/scardenete/Documents/my_own_documents/Arduino/Proyect_Pi_Arduino/build/CMakeFiles/_arduino_lib_local_lib.dir
-/Users/scardenete/Documents/my_own_documents/Arduino/Proyect_Pi_Arduino/build/CMakeFiles/_arduino_lib_core.dir
-/Users/scardenete/Documents/my_own_documents/Arduino/Proyect_Pi_Arduino/build/CMakeFiles/_arduino_lib_EEPROM.dir
-/Users/scardenete/Documents/my_own_documents/Arduino/Proyect_Pi_Arduino/build/CMakeFiles/rebuild_cache.dir
-/Users/scardenete/Documents/my_own_documents/Arduino/Proyect_Pi_Arduino/build/CMakeFiles/arduino_lib.dir

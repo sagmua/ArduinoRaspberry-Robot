@@ -17,6 +17,10 @@ int main() {
 	#if defined(USBCON)
 		USBDevice.attach();
 	#endif
+
+	/* Start the Serial port */
+	Serial.begin(9600);
+
 	/* 
 	 * We create an struct that contains all the necessary pins for the
 	 * distance sensor HC-SR04
@@ -45,10 +49,14 @@ int main() {
 	/* Call a function in local lib */
 	local_lib_function();
 
-	/* Call a function in EEPROM */
-	EEPROM.read(0);
+	while(true) {
+		/* Call a function in EEPROM */
+		float distance = distance_sensor.distance();
 
-	delay(10); /*We sleep during 10 seconds */
-	Serial.println("this is a message");
-	Serial.flush();
+		delay(2); /*We sleep during 10 seconds */
+		Serial.println("Distance sensor");
+		Serial.flush();
+		Serial.println(distance);
+		Serial.flush();
+	}
 }
